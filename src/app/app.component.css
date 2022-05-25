@@ -1,0 +1,25 @@
+.temperature{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.location{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.card{
+  background-color: #0E1837;
+  box-shadow: 1px 1px 10px 2px white;
+
+}
+
+.form-control{
+  background-color: #1e2e61;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
