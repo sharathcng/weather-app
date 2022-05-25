@@ -7,8 +7,8 @@
 <div *ngIf="weatherData" class="container mt-3 d-flex justify-content-center">
 
   <div class="card d-flex justify-content-center" style="width: 21rem;">
-    <img *ngIf="weatherData.main.temp<16" src="../assets/img/cold.jpg" class="card-img-top" alt="...">
-    <img *ngIf="weatherData.main.temp>16" src="../assets/img/hot.jpg" class="card-img-top" alt="...">
+    <img *ngIf="weatherData.main.temp<16" src="assets/img/cold.jpg" class="card-img-top" alt="...">
+    <img *ngIf="weatherData.main.temp>16" src="assets/img/hot.jpg" class="card-img-top" alt="...">
     <div class="card-img-overlay">
       <h5 class="location text-center mt-5">{{weatherData.name}}</h5>
       <h1 class="temperature text-center">{{weatherData.main.temp | number:'1.0-0'}}°C</h1>
@@ -17,14 +17,14 @@
     <div class="card-body">
       <div class="row">
         <div class="col-4">
-          <img src="../assets/img/min.png" class="card-img-top" alt="...">
+          <img src="assets/img/min.png" class="card-img-top" alt="...">
           <figcaption class="text-center">min</figcaption>
         </div>
         <div class="col-2 my-auto">
           {{weatherData.main.temp_min | number:'1.0-0'}}°C
         </div>
         <div class="col-4">
-          <img src="../assets/img/max.png" class="card-img-top" alt="...">
+          <img src="assets/img/max.png" class="card-img-top" alt="...">
           <figcaption class="text-center">max</figcaption>
         </div>
         <div class="col-2 my-auto">
@@ -33,7 +33,7 @@
       </div>
       <div class="row">
         <div class="col-4">
-          <img src="../assets/img/humidity.png" class="card-img-top" alt="...">
+          <img src="assets/img/humidity.png" class="card-img-top" alt="...">
           <figcaption class="text-center">humidity</figcaption>
         </div>
         <div class="col-2 my-auto">
@@ -41,7 +41,7 @@
 
         </div>
         <div class="col-4">
-          <img src="../assets/img/wind.png" class="card-img-top" alt="...">
+          <img src="assets/img/wind.png" class="card-img-top" alt="...">
           <figcaption class="text-center">wind</figcaption>
         </div>
         <div class="col-2 my-auto">
